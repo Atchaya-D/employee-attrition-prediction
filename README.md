@@ -12,24 +12,24 @@ A Random Forest Classifier is used for prediction. The trained model is saved us
 
 What the application does
 
-• Shows the total number of employees
-• Shows the number of employees who left the organization
-• Calculates the overall attrition rate
-• Displays attrition based on department
-• Displays attrition based on job role
-• Displays attrition based on overtime
-• Predicts attrition for a new employee
-• Shows the probability of employee attrition
+â€¢ Shows the total number of employees
+â€¢ Shows the number of employees who left the organization
+â€¢ Calculates the overall attrition rate
+â€¢ Displays attrition based on department
+â€¢ Displays attrition based on job role
+â€¢ Displays attrition based on overtime
+â€¢ Predicts attrition for a new employee
+â€¢ Shows the probability of employee attrition
 
 Technologies Used
 
-• Python
-• Pandas
-• NumPy
-• Scikit-learn
-• Joblib
-• Streamlit
-• Jupyter Notebook
+â€¢ Python
+â€¢ Pandas
+â€¢ NumPy
+â€¢ Scikit-learn
+â€¢ Joblib
+â€¢ Streamlit
+â€¢ Jupyter Notebook
 
 Machine Learning
 
@@ -37,34 +37,34 @@ The main machine learning model used in this project is Random Forest Classifier
 
 The preprocessing pipeline includes:
 
-• Removing unnecessary columns
-• Separating input features and target variable
-• Encoding categorical features using One-Hot Encoding
-• Scaling numerical features using StandardScaler
-• Splitting the data into training and testing sets
+â€¢ Removing unnecessary columns
+â€¢ Separating input features and target variable
+â€¢ Encoding categorical features using One-Hot Encoding
+â€¢ Scaling numerical features using StandardScaler
+â€¢ Splitting the data into training and testing sets
 
 The target variable is converted into:
 
-0 – Employee stays
+0 â€“ Employee stays
 
-1 – Employee leaves
+1 â€“ Employee leaves
 
 Project Structure
 
 Employee-Attrition-Prediction/
-¦
+Â¦
 +-- app.py
 +-- best_attrition_model.pkl
 +-- requirements.txt
 +-- README.md
 +-- .gitignore
-¦
+Â¦
 +-- data/
-¦   +-- WA_Fn-UseC_-HR-Employee-Attrition.csv
-¦
+Â¦   +-- WA_Fn-UseC_-HR-Employee-Attrition.csv
+Â¦
 +-- notebooks/
-¦   +-- Data_preprocessing.ipynb
-¦
+Â¦   +-- Data_preprocessing.ipynb
+Â¦
 +-- src/
 
 How to Run the Project
@@ -102,6 +102,8 @@ python -m streamlit run app.py
 The application will open in the browser at:
 
 http://localhost:8501
+
+Streamlit: https://employee-attrition-prediction-dkbz4mjwnqt4zzhbxyagwb.streamlit.app/
 
 Application Sections
 
